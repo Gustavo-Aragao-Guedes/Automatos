@@ -1,4 +1,4 @@
-# Computacao-Paralela
+# Computação Paralela
 Repositório dos laboratórios de Computação Paralela do grupo Paralelopípedo.
 
 Membros: 
