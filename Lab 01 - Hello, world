@@ -1,0 +1,7 @@
+// Gustavo Aragão Guedes 32089678
+
+#include <stdio.h>
+
+int main(){
+  printf("Hello, world!");
+}
