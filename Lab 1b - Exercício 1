@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cstdlib>
+#include <time.h>
+#define L 5
+#define C 5
+
+int main(){
+  int Matriz[L][C], i, j, menorN, menorL;
+  srand(time(NULL));
+  printf("Matriz quadrada: \n");
+  for (i = 0; i < L; i++) {
+        for (j = 0; j < C; j++) {
+            Matriz[i][j] = rand()%100;
+            printf("%3d | ", Matriz[i][j]);
+        }
+    printf("\n");
+  }
+
+  for (i=0; i< L; i++){
+    for (j=0; j< C; j++){
+      if (Matriz[i][j] < menorN) {
+        menorN = Matriz[i][j];
+        menorL = i+1;
+    }
+  }
+}
+
+printf("\nA linha que contem o menor valor é %d\n", menorL);
+// Erro: A variável menorL não está recebendo o valor correto
+  
+}
