@@ -26,6 +26,5 @@ int main(){
 }
 
 printf("\nA linha que contem o menor valor é %d\n", menorL);
-// Erro: A variável menorL não está recebendo o valor correto
   
 }
