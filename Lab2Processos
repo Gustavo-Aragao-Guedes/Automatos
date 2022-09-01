@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
+  int num;
   pid_t j;
   pid_t i;
-
-  int num;
+  
   cout << "Enter the number: ";
   cin >> num;
   j = num;
-
+  
   fork();
   
   for (i=1; j > 1; j = j -1) {       
