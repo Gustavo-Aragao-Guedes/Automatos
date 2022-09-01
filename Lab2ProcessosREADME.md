@@ -4,3 +4,5 @@ Professor, eu não consegui deduzir onde era para separar o código em dois proc
 Com certeza não era a solução esperada, mas decidi entregar o que eu fiz do que nada.
 
 E eu procurei na internet mas não consegui achar uma forma de calcular o tempo de execução fora do código.
+
+Link: https://replit.com/@Watchboy/Lab2Processos?v=1
